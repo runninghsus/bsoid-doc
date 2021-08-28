@@ -6,10 +6,13 @@
 Welcome to B-SOiD documentation!
 ================================================
 
+B-SOiD identifies behaviors using a unique pipeline where unsupervised learning meets supervised classification.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   summary
    code
 
 
