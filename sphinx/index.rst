@@ -5,23 +5,21 @@
 
 Welcome to B-SOiD documentation!
 ================================================
-
-B-SOiD identifies behaviors using a unique pipeline where unsupervised learning meets supervised classification.
-
 .. image:: bsoid-exercise.*
+
+
+
+.. note:: B-SOiD clusters behavior based on pose-estimation.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   usage
    summary
    code
 
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+

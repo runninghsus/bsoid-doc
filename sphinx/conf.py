@@ -17,7 +17,7 @@ sys.path.insert(0, os.path.abspath('../'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'B-SOiD documentation'
+project = 'B-SOiD'
 copyright = '2021, Alexander Hsu'
 author = 'Alexander Hsu'
 
@@ -31,7 +31,8 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-]
+              ]
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -48,6 +49,21 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 html_theme = 'furo'
+
+html_logo = "yttri-logo.jpg"
+
+html_theme_options = {
+    "sidebar_hide_name": True,
+    "navigation_with_keys": True,
+    "light_css_variables": {
+        "color-brand-primary": "#ff5050",
+        "color-brand-content": "#ff7d52",
+    },
+    "dark_css_variables": {
+        "color-brand-primary": "#ff5050",
+        "color-brand-content": "#ff7d52",
+    },
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
