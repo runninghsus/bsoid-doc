@@ -3,21 +3,27 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to B-SOiD documentation!
+Welcome to B-SOiD tutorial!
 ================================================
+Welcome to the B-SOiD tutorial page.
+B-SOiD is an open-source tool to discover and extract behaviors and sub-actions from pose estimation data.
+A full discussion of its use and features can be found :doc:`usage`. Currently, B-SOiD supports SLEAP, DeepLabCut, and OpenPose.
+
 .. image:: bsoid-exercise.*
 
 
-
-.. note:: B-SOiD clusters behavior based on pose-estimation.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   requirements
    usage
-   summary
-   code
+   initial-run
+   model-build
+   model-refine
+   new-data
+   troubleshooting
 
 
 

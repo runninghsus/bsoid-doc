@@ -18,8 +18,8 @@ sys.path.insert(0, os.path.abspath('../'))
 # -- Project information -----------------------------------------------------
 
 project = 'B-SOiD'
-copyright = '2021, Alexander Hsu'
-author = 'Alexander Hsu'
+copyright = '2021, Alexander Hsu and Nahom Mossazghi'
+author = 'Alexander Hsu and Nahom Mossazghi'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
@@ -49,6 +49,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # a list of builtin themes.
 #
 html_theme = 'furo'
+
+html_title = "B-SOiD"
 
 html_logo = "yttri-logo.jpg"
 

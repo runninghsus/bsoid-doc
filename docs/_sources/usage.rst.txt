@@ -1,7 +1,8 @@
-Usage
-=====
+Installation and usage
+======================
 
 .. _installation:
+.. _usage:
 
 Installation
 ------------
@@ -24,6 +25,9 @@ Activate that environment:
 .. code-block:: console
 
    (base) C:/Users/username> conda activate bsoid_v2
+
+Usage
+-----
 
 Run the streamlit application:
 
