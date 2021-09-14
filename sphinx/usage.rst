@@ -6,6 +6,9 @@ Installation and usage
 
 Installation
 ------------
+Download the Anaconda_ distribution to setup a B-SOiD environment
+
+.. _Anaconda: https://www.anaconda.com/
 
 To use B-SOiD, first download it:
 

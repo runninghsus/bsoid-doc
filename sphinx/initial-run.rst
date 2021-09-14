@@ -50,6 +50,7 @@ Here you can export the physical features (i.e. spatiotemporal patterns) that we
 Create a model
 --------------
 B-SOiD will use random forest classification algorithm to generate a model that will be used to predict future dataset. You can evaluate the performance of the model by checking the confusion matrix and cross-validated accuracy test
+
 .. image:: create_model.gif
 
 Generate video snippets for interpretation
