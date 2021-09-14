@@ -3,7 +3,7 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="prev" title="Applying B-SOiD to new data" href="new-data.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="prev" title="Running for the first time" href="initial-run.html" />
 
     <meta name="generator" content="sphinx-4.0.1, furo 2021.08.17.beta43"/>
         <title>Troubleshooting - B-SOiD</title>
@@ -165,9 +165,6 @@
 <li class="toctree-l1"><a class="reference internal" href="requirements.html">Loading and system requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="usage.html">Installation and usage</a></li>
 <li class="toctree-l1"><a class="reference internal" href="initial-run.html">Running for the first time</a></li>
-<li class="toctree-l1"><a class="reference internal" href="model-build.html">Building your model</a></li>
-<li class="toctree-l1"><a class="reference internal" href="model-refine.html">Refining your model</a></li>
-<li class="toctree-l1"><a class="reference internal" href="new-data.html">Applying B-SOiD to new data</a></li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Troubleshooting</a></li>
 </ul>
 
@@ -198,7 +195,7 @@
 <h1>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The most common problems for B-SOiD users come from the input data. First, while the output videos may look pretty good, oftentimes the pose estimation is actually quite jittery. We recommend checking for large jumps in estimated position before using B-SOiD, and removing those points either through pose estimation model improvement, or if necessary, replacing jumping points with an interpolated position. Second, B-SOiD clusters behavior based upon the available inputs. As such, do not use input features that aren’t useful. For instance, if studying facial expressions, the position of the ears or elbows should be excluded as these are uninformative or unrelated body parts. Similarly, redundant points should be eliminated, such as multiple points along a solid bone or along the belly. (All examples should be taken with a grain of salt, as specific experiments or animal models may not fit).</p>
+<p>The most common problems for B-SOiD users come from the input data. First, while the output videos may look pretty good, oftentimes the pose estimation is actually quite jittery. We recommend checking for large jumps in estimated position before using B-SOiD, and removing those points either through pose estimation model improvement, or if necessary, replacing jumping points with an interpolated position. Second, B-SOiD clusters behavior based upon the available inputs. As such, do not use input features that aren’t useful. For instance, if studying facial expressions, the position of the ears or elbows should be excluded as these are uninformative or unrelated body parts. Similarly, redundant points should be eliminated, such as multiple points along a solid bone or along the belly. (All examples should be taken with a grain of salt, as specific experiments or animal models may not fit).More information as we hear about new challenges. Join our slack for more help from the community</p>
 </div>
 </section>
 
@@ -207,14 +204,14 @@
         
         <div class="related-pages">
           
-          <a class="prev-page" href="new-data.html">
+          <a class="prev-page" href="initial-run.html">
               <svg><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Applying B-SOiD to new data</div>
+                <div class="title">Running for the first time</div>
                 
               </div>
             </a>

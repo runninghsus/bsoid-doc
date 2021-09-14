@@ -20,9 +20,6 @@ A full discussion of its use and features can be found :doc:`usage`. Currently, 
    requirements
    usage
    initial-run
-   model-build
-   model-refine
-   new-data
    troubleshooting
 
 
