@@ -7,7 +7,8 @@ Welcome to B-SOiD tutorial!
 ================================================
 Welcome to the B-SOiD tutorial page.
 B-SOiD is an open-source tool to discover and extract behaviors and sub-actions from pose estimation data.
-A full discussion of its use and features can be found :doc:`usage`. Currently, B-SOiD supports SLEAP, DeepLabCut, and OpenPose.
+A full discussion of its use and features can be found in our `Nature Communications article <https://www.nature.com/articles/s41467-021-25420-x>`_. Currently, B-SOiD supports SLEAP, DeepLabCut, and OpenPose.
+
 
 .. image:: bsoid-exercise.*
 

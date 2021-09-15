@@ -5,7 +5,7 @@ Running for the first time
 
 
 Create a folder on Desktop called B-SOiD Project. Within B-SOiD project, create a session directory named 041919.
-Download and save csv file :download:`csv file 1 <041919/2019-04-19_09-34-36cut0_30minDeepCut_resnet50_OpenFieldHighResApr8shuffle1_1030000.csv>` and :download:`csv file 2 <041919/2019-04-19_09-34-36cut30min_1hrDeepCut_resnet50_OpenFieldHighResApr8shuffle1_1030000.csv>` in that directory.
+Download and save :download:`csv and corresponding mp4 files <https://drive.google.com/drive/folders/1Uu3qdpo-88DdDDgcsYmGIrgyt3F9GYkD?usp=sharing>` in that directory.
 
 Example data structure:
 
