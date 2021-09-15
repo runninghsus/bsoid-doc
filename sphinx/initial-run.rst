@@ -5,7 +5,7 @@ Running for the first time
 
 
 Create a folder on Desktop called B-SOiD Project. Within B-SOiD project, create a session directory named 041919.
-Download and save :download:`csv and corresponding mp4 files <https://drive.google.com/drive/folders/1Uu3qdpo-88DdDDgcsYmGIrgyt3F9GYkD?usp=sharing>` in that directory.
+Download and save :download:`csv and corresponding mp4 files <https://drive.google.com/drive/folders/1weyj8w9NNctQpn0g1jtDTij3VxXW7jDD?usp=sharing>` in that directory.
 
 Example data structure:
 
